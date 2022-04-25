@@ -57,8 +57,16 @@
 
               <label for="gender">Gender</label>
               <select id="gender" name="gender">
-                <option value="male">Male</option>
-                <option value="female">Female</option>
+                <option value="" disabled selected>Select Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Transgender">Transgender</option>
+                <option value="Gender Neutral">Gender Neutral</option>
+                <option value="Non-Binary">Non-Binary</option>
+                <option value="Agender">Agender</option>
+                <option value="Female">Pangender</option>
+                <option value="Genderqueer">Genderqueer</option>
+                <option value="Others">Others</option>
               </select>
 
               <label for="dob">Date of Birth</label>
@@ -74,18 +82,26 @@
 
               <label for="marital">Marital Status</label>
               <select id="marital" name="marital">
+                <option value="" disabled selected>
+                  Select Marital Status
+                </option>
                 <option value="Married">Married</option>
                 <option value="Single">Single</option>
+                <option value="Widowed">Widowed</option>
+                <option value="Divorced">Divorced</option>
+                <option value="Separated">Separated</option>
               </select>
 
-              <label for="kids">Do you have kids</label>
+              <label for="kids">Kids</label>
               <select id="kids" name="kids">
+                <option value="" disabled selected>Do you have Kids?</option>
                 <option value="No">No</option>
                 <option value="Yes">Yes</option>
               </select>
 
               <label for="employed">Employed</label>
               <select id="employed" name="employed">
+                <option value="" disabled selected>Are you Employed?</option>
                 <option value="No">No</option>
                 <option value="Yes">Yes</option>
               </select>
@@ -106,8 +122,11 @@
                 placeholder="Who is Sponsoring your Trip?"
               />
 
-              <label for="criminal">Do you have a Criminal History</label>
+              <label for="criminal">Criminal History</label>
               <select id="criminal" name="criminal">
+                <option value="" disabled selected>
+                  Do you have a Criminal History?
+                </option>
                 <option value="No">No</option>
                 <option value="Yes">Yes</option>
               </select>
