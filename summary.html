@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Immigration Site</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>9Ja Guy Immigration Xpatz</h1>
+    </div>
+
+    <div class="topnav">
+      <a href="#">Home</a>
+      <a href="#">Quiz</a>
+      <a href="#">About</a>
+      <a href="#">Contact Us</a>
+      <a href="#">Testimonial</a>
+      <span style="float: right"
+        ><input
+          class="search"
+          type="text"
+          style="margin-right: 90px"
+          placeholder="Search"
+      /></span>
+    </div>
+
+    <div class="row">
+      <div class="leftcolumn">
+        <div
+          class="card"
+          style="padding: 20px; border: 1px solid #d3d0d0; border-radius: 4px"
+        >
+          <h3 style="text-align: center">
+            Your Application has been submitted Successfully!
+          </h3>
+          <p>
+            <b>Your Score: </b>
+            <script>
+              const RANDOMSCORE = Math.floor(Math.random() * 10) + 50 + "%";
+              document.write(RANDOMSCORE);
+            </script>
+          </p>
+          <p><b>Total Obtainable: </b>100%</p>
+          <h4 style="text-align: center">
+            We would communicate you on any update about your application
+          </h4>
+        </div>
+      </div>
+      <div class="rightcolumn">
+        <div class="card">
+          <h2>About Us</h2>
+          <div class="fakeimg" style="height: 100px">Image</div>
+          <p>
+            Some random text about the agency goes here. It will be brief and
+            concise as well descriptive.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Contact Us</h3>
+          <p><input type="text" class="form-control" placeholder="Name" /></p>
+          <p>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Email Address"
+            />
+          </p>
+          <p>
+            <input type="text" class="form-control" placeholder="Website" />
+          </p>
+          <p>
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Message"
+            ></textarea>
+          </p>
+        </div>
+        <div class="card">
+          <h3>Follow Me</h3>
+          <p>Some text..</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <h5>&copy;9Ja Immigration Xpatz</h5>
+    </div>
+  </body>
+</html>
